@@ -1,4 +1,5 @@
-nolat-counter
+Nolat-Counter
 =============
 
-A simple download and statistic counter.
+A simple in-memory download and statistic counter.
+
