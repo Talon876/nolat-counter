@@ -93,18 +93,6 @@ var listVariables = function(request, response) {
 	response.write('Total Visits: ' + totalVisits + '<br>');
 	response.write('Total Unique: ' + totalVars + '<br>');
 	response.end();
-/*
-	response.write('Total Variables Tracked: ' + statArray.length + '<br>');
-	for(var stats in statArray) {
-		var data = statArray[stats];
-		totalVisits += data.total;
-		totalUnique += data.unique;
-		response.write('<br>Variable: <a href="/counter/c/' + data.variable + '/stats">' + data.variable + '</a> (' + data.total + '|' + data.unique + ')<br>');
-	}
-	response.write('<br>       Total Visits: ' + totalVisits + '<br>');
-	response.write('Total Unique Visits: ' + totalUnique + '<br>');
-	response.end();
-	*/
 }
 
 var listVariablesApi = function(request, response) {
